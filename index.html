@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Encuesta</title>
+</head>
+
+<body>
+    <div class="body">
+    <h1 class="titulo">TU OPINION NOS INTERESA</h1>
+    <form action="https://formsubmit.co/buenostiemposnet@hotmail.com" method="POST" class="formulario">
+    <h2>Como Te Atendimos?</h2>
+    <select name="Como te Atendimos?" class="opinion">
+
+        <option value="Excelente">Excelente</option>
+
+        <option value="Bien">Bien</option>
+
+        <option value="No Me Gusto">No Me Gusto</option>
+
+        <option value="Muy Mal">Muy Mal</option>
+
+    </select>
+
+  <textarea name="comentario" id="comentario" cols="40" rows="15"></textarea>
+  <div class="enviar">
+    <input type="submit" value="Enviar">
+    <input type="reset" value="limpiar">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="http://127.0.0.1:5500/gracias.html">
+  </div>
+</form>
+</div>
+</body>
+
+</html>
